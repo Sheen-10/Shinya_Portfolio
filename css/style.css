@@ -503,6 +503,24 @@ ABOUT ME
     opacity: 1;
 }
 
+#page_top {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+#page_top a {
+    background-color: white;
+    color: #003399;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: black 1px solid;
+}
+#page_top a:hover {
+    text-decoration: none;
+}
+
 /*--------------------------------
 SKILL
 ---------------------------------*/
@@ -823,3 +841,5 @@ body {
 #footer .inner {
     padding: 20px 0;
 }
+
+
