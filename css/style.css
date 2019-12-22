@@ -649,197 +649,198 @@ CONTACT
 ----------------------------------------------------*/
 
 @media screen and (max-width: 767px) {
-body {
-    font-size: 13px;
-    line-height: 1.7;
+
+    body {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .sp {
+        display: block;
+    }
+
+    .hover-action-01 {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .hover-action-01:hover {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+
+
+    #wrapper {
+        padding-top: 82px;
+    }
+
+    #header {
+        height: 70vh;
+    }
+
+    #header .logo-title {
+        font-size: 28px;
+        letter-spacing: .16em;
+    }
+
+    #header .logo-desc {
+        font-size: 11px;
+    }
+
+    #gnav {
+        padding: 15px 0;
+    }
+
+    #gnav li {
+        font-size: 13px;
+        padding: 2px 15px;
+    }
+
+    #gnav li a {
+        padding: 0;
+    }
+
+    #gnav li a:hover {
+        opacity: 1;
+    }
+
+    #gnav li a::after {
+        display: none;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section .inner {
+        padding: 0 15px;
+    }
+
+    .section .section-title-area {
+        margin-bottom: 20px;
+    }
+
+    .section .section-title {
+        font-size: 22px;
+    }
+
+    .card-caption {
+        text-align: left;
+    }
+
+    .card-caption-title {
+        font-size: 10px;
+    }
+
+    #works .card:nth-child(2n+1):nth-last-child(-n+2),
+    #works .card:nth-child(2n+1):nth-last-child(-n+2)~div {
+        margin-bottom: 0;
+    }
+
+    #works .card {
+        flex-basis: 48%;
+        margin-bottom: 30px;
+    }
+
+    #feature .section-image,
+    #feature .section-desc {
+        flex-basis: 100%;
+    }
+
+    #feature .section-image {
+        margin-bottom: 20px;
+    }
+
+    #about.section-image,
+    #about .section-desc {
+        flex-basis: 100%;
+    }
+
+    #about .section-image {
+        flex-basis: 100px;
+        margin: 0 auto 20px;
+    }
+
+    #skill .card-wrapper {
+        width: 100%;
+    }
+
+    #skill .card {
+        flex-basis: 100%;
+    }
+
+    #skill .skill-icon {
+        flex-basis: 45px;
+    }
+
+    #skill .skill-icon img {
+        width: 45px;
+    }
+
+    #skill .skill-desc {
+        flex-basis: calc(100% - 45px - 10px);
+    }
+
+    #skill .rate {
+        font-size: 15px;
+        height: 15px;
+    }
+
+    #skill .rate:before,
+    #skill .rate:after {
+        line-height: 15px;
+        height: 15px;
+    }
+
+    #skill .rate1:after {
+        width: 15px;
+    }
+
+    #skill .rate2:after {
+        width: 35px;
+    }
+
+    #skill .rate3:after {
+        width: 55px;
+    }
+
+    #skill .rate4:after {
+        width: 75px;
+    }
+
+    #skill .rate5:after {
+        width: 95px;
+    }
+
+    #contact .contact-list ul {
+        width: 100px;
+    }
+
+    #contact .contact-list li img {
+        width: 30px;
+    }
+
+    #contact .contact-list-desc {
+        font-size: 12px;
+    }
+
+    #footer .inner {
+        padding: 20px 0;
+    }
+
 }
-
-.pc {
-    display: none;
-}
-
-.sp {
-    display: block;
-}
-
-.hover-action-01 {
-    -webkit-transition: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;
-    transition: none;
-}
-
-.hover-action-01:hover {
-    -webkit-transition: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;
-    transition: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -ms-transform: none;
-    -o-transform: none;
-    transform: none;
-}
-
-
-#wrapper {
-    padding-top: 82px;
-}
-
-#header {
-    height: 70vh;
-}
-
-#header .logo-title {
-    font-size: 28px;
-    letter-spacing: .16em;
-}
-
-#header .logo-desc {
-    font-size: 11px;
-}
-
-#gnav {
-    padding: 15px 0;
-}
-
-#gnav li {
-    font-size: 13px;
-    padding: 2px 15px;
-}
-
-#gnav li a {
-    padding: 0;
-}
-
-#gnav li a:hover {
-    opacity: 1;
-}
-
-#gnav li a::after {
-    display: none;
-}
-
-.section {
-    padding: 60px 0;
-}
-
-.section .inner {
-    padding: 0 15px;
-}
-
-.section .section-title-area {
-    margin-bottom: 20px;
-}
-
-.section .section-title {
-    font-size: 22px;
-}
-
-.card-caption {
-    text-align: left;
-}
-
-.card-caption-title {
-    font-size: 10px;
-}
-
-#works .card:nth-child(2n+1):nth-last-child(-n+2),
-#works .card:nth-child(2n+1):nth-last-child(-n+2)~div {
-    margin-bottom: 0;
-}
-
-#works .card {
-    flex-basis: 48%;
-    margin-bottom: 30px;
-}
-
-#feature .section-image,
-#feature .section-desc {
-    flex-basis: 100%;
-}
-
-#feature .section-image {
-    margin-bottom: 20px;
-}
-
-#about.section-image,
-#about .section-desc {
-    flex-basis: 100%;
-}
-
-#about .section-image {
-    flex-basis: 100px;
-    margin: 0 auto 20px;
-}
-
-#skill .card-wrapper {
-    width: 100%;
-}
-
-#skill .card {
-    flex-basis: 100%;
-}
-
-#skill .skill-icon {
-    flex-basis: 45px;
-}
-
-#skill .skill-icon img {
-    width: 45px;
-}
-
-#skill .skill-desc {
-    flex-basis: calc(100% - 45px - 10px);
-}
-
-#skill .rate {
-    font-size: 15px;
-    height: 15px;
-}
-
-#skill .rate:before,
-#skill .rate:after {
-    line-height: 15px;
-    height: 15px;
-}
-
-#skill .rate1:after {
-    width: 15px;
-}
-
-#skill .rate2:after {
-    width: 35px;
-}
-
-#skill .rate3:after {
-    width: 55px;
-}
-
-#skill .rate4:after {
-    width: 75px;
-}
-
-#skill .rate5:after {
-    width: 95px;
-}
-
-#contact .contact-list ul {
-    width: 100px;
-}
-
-#contact .contact-list li img {
-    width: 30px;
-}
-
-#contact .contact-list-desc {
-    font-size: 12px;
-}
-
-#footer .inner {
-    padding: 20px 0;
-}
-
-
