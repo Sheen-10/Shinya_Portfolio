@@ -4,14 +4,15 @@ $(function(){
   pagetop.hide();
 
   $(window).scroll(function () {
-  if ($(this).scrollTop() > 80) {
-          pagetop.fadeIn();
-  } else {
-          pagetop.fadeOut();
-  }
+    if ($(this).scrollTop() > 80) {
+      pagetop.fadeIn();
+    } else {
+      pagetop.fadeOut();
+    }
   });
+
   pagetop.click(function () {
-  $('body, html').animate({ scrollTop: 0 }, 500);
-  return false;
+    $('body, html').animate({ scrollTop: 0 }, 500);
+    return false;
   });
 });
