@@ -359,6 +359,7 @@ FEATURE
 
 #feature .section-image {
     flex-basis: 58%;
+    text-align: center;
 }
 
 #feature .section-image img {
@@ -650,6 +651,11 @@ CONTACT
 
 @media screen and (max-width: 767px) {
 
+    #about .section-image img {
+        width: 100px;
+        height: 100px;
+    }
+
     body {
         font-size: 13px;
         line-height: 1.7;
@@ -844,3 +850,4 @@ CONTACT
     }
 
 }
+
